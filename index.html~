@@ -486,7 +486,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 				window.onload = () => {
   'use strict';
 
-  if ('sw' in navigator) {
+  if ('serviceWorker' in navigator) {
     navigator.serviceWorker
              .register('sw.js');
   }
